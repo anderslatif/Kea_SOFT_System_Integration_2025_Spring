@@ -1,0 +1,3 @@
+name=Anders
+age=36
+hobbies=: eating, coding, sleeping

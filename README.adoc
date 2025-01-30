@@ -15,23 +15,21 @@ The semester is subject to future modifications and updates during the semester.
 |===
 | Title | Date | Description | Learning Goals | Resources and Activities
 
-| 1.  link:00._Course_Material/02._Slides/01._Introduction/introduction.md[Introduction]
+| 1.  link:00._Course_Material/02._Slides/01._Introduction/01._introduction.md[Introduction]
 | Jan 30th
 a|
 * Intro: This course
 * File types and data formats.
 * Everything but REST
-* Basic Express server
 a|
 * Alternatives to REST API.
 * Data formats. TXT, JSON, YAML, CSV, XML
 * Can parse files in these formats after the homework.
 a|
+Remember to install Poetry. We will talk about why we use it in the next lecture.
 link:00._Course_Material/01._Assignments/01._Introduction_Data_Formats/00._Install.md[<Individual> Install these]
 
 link:00._Course_Material/01._Assignments/01._Introduction_Data_Formats/01a._Data_parsing_server_Part_I.md[01a <Individual> Data parsing server - Part I]
-
-link:https://python-poetry.org/docs/[Install Poetry]
 
 | 2. Data
 | Feb. 6th
@@ -53,7 +51,8 @@ a|
 // link:00._Course_Material/01._Assignments/02._Data/00._Data_parsing_server_Part_II.md[00 <Individual> Data format translation servers - Part II]
 
 
-| 3. Server to server / Real-time communication - Part I
+| 3. 
+Server-to-server
 | Feb. 13th
 a|
 * Communication
@@ -68,7 +67,9 @@ a|
 a|
 // link:00._Course_Material/01._Assignments/03._Server_to_server_Real-time_communication_Part_I/03a._Data_parsing_server_Part_III.md[03a <Individual> Data parsing server - Part II]
 
-| 4. Real-time communication - Part II
+| 4. 
+Server-to-client 
+Time and Dates
 | Feb. 20th
 a|
 * TCP tunneling tools
@@ -77,7 +78,7 @@ a|
 * Server-sent events
 // * link:00._Course_Material/02._Slides/infographics/Webhooks.md[Webhooks]
 a|
-* Understand how date affects systems and communication between services.
+* Understand how date and time representation affects systems and communication between services.
 * Understands challenges and edge cases when working with date and why this is important during integration.
 * Understands client polling, short polling, long polling and the pros and cons of each approach.
 * Understands SSE and can explain how to implement it. Has an example ready.
@@ -94,7 +95,9 @@ a|
 | Do proper research on the topic.
 | 
 
-| 5. Real-time communication - Part II / Documentation
+| 5. 
+Client and Server / Client-to-client
+Documentation
 | March 7th
 a|
 * Webhooks

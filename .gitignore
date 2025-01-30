@@ -1,6 +1,8 @@
 presentation.html
 videos
 
+.vite
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
