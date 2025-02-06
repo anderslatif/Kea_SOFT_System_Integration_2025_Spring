@@ -4,7 +4,9 @@
 
 link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the course]
 
-// link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the exam]
+link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the exam]
+
+link:00._Course_Material/00._Meta_Course_Material/poetry_commands.md[Poetry commands]
 
 
 == Semester Plan
@@ -15,40 +17,47 @@ The semester is subject to future modifications and updates during the semester.
 |===
 | Title | Date | Description | Learning Goals | Resources and Activities
 
-| 1.  link:00._Course_Material/02._Slides/01._Introduction/01._introduction.md[Introduction]
+| 1.  Introduction
 | Jan 30th
 a|
-* Intro: This course
-* File types and data formats.
-* Everything but REST
+link:00._Course_Material/02._Slides/01._Introduction/01._introduction.md[Introduction]
+
+File types and data formats.
+
+Everything but REST
 a|
-* Alternatives to REST API.
 * Data formats. TXT, JSON, YAML, CSV, XML
+* Alternative integrations to REST API.
 * Can parse files in these formats after the homework.
 a|
 Remember to install Poetry. We will talk about why we use it in the next lecture.
 link:00._Course_Material/01._Assignments/01._Introduction_Data_Formats/00._Install.md[<Individual> Install these]
 
-link:00._Course_Material/01._Assignments/01._Introduction_Data_Formats/01a._Data_parsing_server_Part_I.md[01a <Individual> Data parsing server - Part I]
+link:00._Course_Material/01._Assignments/01._Introduction_Data_Formats/01a._Data_parsing_servers_Part_I.md[01a <Individual> Data parsing servers - Part I]
 
 | 2. Data
 | Feb. 6th
 a|
-* Intro: The exam
-* Data encoding
-* Hashing, serializing, marshalling
-* Python modules
-* Environment Setup
-* Packages ecosystem in Node and Python
-* Servers
+Intro: The exam
+
+link:00._Course_Material/02._Slides/02._Encoding_And_Modules/01._modules.md[ES6 and Python modules]
+
+link:00._Course_Material/02._Slides/02._Encoding_And_Modules/02._encoding.md[Encoding]
+
+link:00._Course_Material/02._Slides/02._Encoding_And_Modules/03._virtual_environments_python.md[Virtual Environments in Python]
+
+Servers
 a|
+* Can work with modules in Javascript and Python. Knows why we use ES6 modules in Javascript and why it matters to a course focused on integration.
 * Can argue about different build tools for Python and understands their pros and cons.
 * Can use poetry.
 * Understands encoding, serializing and marshalling. Knows about charsets and encoding types.
 a|
-// link:00._Course_Material/01._Assignments/02._Data/00._Serialize_Marshall_data.md[00 <Optional/Individaul> Serialize / Marshall data]
+Homework: Be able to create an Express server with a GET route handler. Be able to install FastAPI with Poetry. Do it as many times necessary until you reach the learning objective.
 
-// link:00._Course_Material/01._Assignments/02._Data/00._Data_parsing_server_Part_II.md[00 <Individual> Data format translation servers - Part II]
+link:00._Course_Material/01._Assignments/02._Data/00._Serialize_Marshall_data.md[00 <Optional/Individual> Serialize / Marshall data]
+
+link:00._Course_Material/01._Assignments/02._Data/00._Data_parsing_server_Part_II.md[00 <Individual> Data format translation servers - Part II]
 
 
 | 3. 
@@ -112,11 +121,11 @@ a|
 
 // link:https://www.youtube.com/watch?v=pRS9LRBgjYg[Resource: Video on OpenAPI]
 
-| Guest lecture
+| External Guest lecture
 | March 14th
+| About integrating different systems and working with large systems
 | 
-| 
-| 
+|
 
 
 |===
