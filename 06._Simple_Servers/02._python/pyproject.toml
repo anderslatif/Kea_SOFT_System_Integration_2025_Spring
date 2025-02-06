@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "02-python"
+version = "0.1.0"
+description = ""
+authors = ["anderslatif <anderslatif@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "02"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+uvicorn = "^0.34.0"
+fastapi = "^0.115.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "03-poetry"
+version = "0.1.0"
+description = ""
+authors = ["anderslatif <anderslatif@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "03"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+emoji = "^2.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
