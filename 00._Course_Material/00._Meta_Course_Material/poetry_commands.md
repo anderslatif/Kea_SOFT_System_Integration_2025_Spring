@@ -1,24 +1,35 @@
-# poetry
+# [poetry](https://python-poetry.org/)
 
 Creates a toml file according to the PEP 518 standard!
 
-```bash
-$ poetry init
-```
+---
 
-With non-interactive mode:
+# I want to get started with FastAPI
+
+This is what we will do in class every time:
 
 ```bash
 $ poetry init -n
+$ poetry add uvicorn fastapi
+$ poetry shell
+$ uvicorn main:app --reload
 ```
 
-```bash
-$ poetry install
-```
+---
+
+# I want to run Anders' exmaple
+
+
+Clone the repository and where the toml file is:
 
 ```bash
 $ poetry shell
+$ poetry install
 ```
+
+---
+
+# Additional Commands
 
 To install additional libraries:
 
@@ -26,8 +37,21 @@ To install additional libraries:
 $ poetry add <library>
 ```
 
+
+---
+
+
+# poetry Advanced
+
+Initialize a toml file in interactive mode:
+
+```bash
+$ poetry init
+```
+
 To initialize a project with a structure that includes tests etc.
 
 ```bash
 $ poetry new <project_name>
 ```
+
