@@ -77,7 +77,7 @@ link:00._Course_Material/02._Slides/03._Server-Server/04._environment_variables.
 * TCP tunneling tools
 a|
 * Knows about different communication protocols on a superficial level.
-* Knows how to make a HTTP requests between languages.
+* Knows how to make a HTTP requests in different languages.
 * Understand the different levels of environment variables and how they differ.
 * Knows how to define environment variables in different languages.
 a|
