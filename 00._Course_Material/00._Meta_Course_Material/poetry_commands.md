@@ -27,6 +27,8 @@ $ poetry shell
 $ poetry install
 ```
 
+Make sure that the Python version in the toml file matches one that is installed on your OS, otherwise change it in the toml file. 
+
 ---
 
 # Additional Commands
