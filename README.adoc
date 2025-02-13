@@ -74,7 +74,6 @@ link:00._Course_Material/02._Slides/03._Server-Server/03._tunneling_tools.md[Tun
 
 link:00._Course_Material/02._Slides/03._Server-Server/04._environment_variables.md[Environment Variables]
 
-* TCP tunneling tools
 a|
 * Knows about different communication protocols on a superficial level.
 * Knows how to make a HTTP requests in different languages.
