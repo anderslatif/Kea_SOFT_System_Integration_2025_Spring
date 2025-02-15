@@ -68,7 +68,7 @@ link:00._Course_Material/02._Slides/03._Server-Server/01._communication_protocol
 
 * Network Protocols (TCP / UDP)
 
-link:00._Course_Material/02._Slides/03._Server-Server/02._server-server.md[Server-server]
+link:00._Course_Material/02._Slides/03._Server-To-Server/02._server-to-server.md[Server to server]
 
 link:00._Course_Material/02._Slides/03._Server-Server/03._tunneling_tools.md[Tunelling Tools]
 
