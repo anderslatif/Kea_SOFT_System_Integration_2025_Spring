@@ -80,7 +80,7 @@ a|
 * Understand the different levels of environment variables and how they differ.
 * Knows how to define environment variables in different languages.
 a|
-link:00._Course_Material/01._Assignments/03._Server_to_server_Real-time_communication_Part_I/03a._Data_parsing_server_Part_III.md[03a <Individual> Data parsing server - Part III]
+link:00._Course_Material/01._Assignments/03._Server-To-Server/03a._Data_parsing_server_Part_III.md[03a <Individual> Data parsing server - Part III]
 
 
 | 4. 
