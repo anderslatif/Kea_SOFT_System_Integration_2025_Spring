@@ -60,19 +60,19 @@ link:00._Course_Material/01._Assignments/02._Data/00._Serialize_Marshall_data.md
 link:00._Course_Material/01._Assignments/02._Data/00._Data_parsing_server_Part_II.md[00 <Individual> Data format translation servers - Part II]
 
 
-| 3. 
+| 3.
 Server-to-server
 | Feb. 13th
 a|
-link:00._Course_Material/02._Slides/03._Server-Server/01._communication_protocols.md[Communication Protocols]
+link:00._Course_Material/02._Slides/03._Server-To-Server/01._communication_protocols.md[Communication Protocols]
 
 * Network Protocols (TCP / UDP)
 
 link:00._Course_Material/02._Slides/03._Server-To-Server/02._server-to-server.md[Server to server]
 
-link:00._Course_Material/02._Slides/03._Server-Server/03._tunneling_tools.md[Tunelling Tools]
+link:00._Course_Material/02._Slides/03._Server-To-Server/03._tunneling_tools.md[Tunelling Tools]
 
-link:00._Course_Material/02._Slides/03._Server-Server/04._environment_variables.md[Environment Variables]
+link:00._Course_Material/02._Slides/03._Server-To-Server/04._environment_variables.md[Environment Variables]
 
 a|
 * Knows about different communication protocols on a superficial level.
@@ -80,27 +80,27 @@ a|
 * Understand the different levels of environment variables and how they differ.
 * Knows how to define environment variables in different languages.
 a|
-link:00._Course_Material/01._Assignments/03._Server_to_server_Real-time_communication_Part_I/03a._Data_parsing_server_Part_III.md[03a <Individual> Data parsing server - Part III]
+link:00._Course_Material/01._Assignments/03._Server-To-Server/03a._Data_parsing_server_Part_III.md[03a <Individual> Data parsing server - Part III]
 
 
-| 4. 
+| 4.
 Server-to-client 
-Time and Dates
+Time
 | Feb. 20th
 a|
-* Date
-* Client polling, short polling, long polling.
-* Server-sent events
-// * link:00._Course_Material/02._Slides/infographics/Webhooks.md[Webhooks]
+link:00._Course_Material/02._Slides/04._Server-To-Client/01._time.md[Time]
+
+link:00._Course_Material/02._Slides/04._Server-To-Client/02._server-to-client.md[Server to client]
+
 a|
-* Understand how date and time representation affects systems and communication between services.
-* Understands challenges and edge cases when working with date and why this is important during integration.
+* Know about standards for time representation relating to date, time and time zones. Can bring up quirks regarding time representation.
+* Can bring up examples of date/time issues which can affect systems and/or users. Having the ability to bring up concrete thought-up examples of possible edge cases during integration and how to solve them. 
 * Understands client polling, short polling, long polling and the pros and cons of each approach.
 * Understands SSE and can explain how to implement it. Has an example ready.
 a|
-// link:00._Course_Material/01._Assignments/04._Real-time_communication_Part_II/04a._SSE_example.md[04a <Individual> SSE example]
+link:00._Course_Material/01._Assignments/04._Server-To-Client/04a._SSE_example.md[04a <Individual> SSE example]
 
-// link:00._Course_Material/01._Assignments/04._Real-time_communication_Part_II/04b._Database_granular_data_access.md[04b <Pair> Database granular access]
+link:00._Course_Material/01._Assignments/04._Server-To-Client/04b._Database_granular_data_access.md[04b <Pair> Database granular access]
 
 
 
@@ -115,6 +115,8 @@ Client and Server / Client-to-client
 Documentation
 | March 7th
 a|
+* Client and Server
+* Client-to-client
 * Webhooks
 * Git hooks
 a|

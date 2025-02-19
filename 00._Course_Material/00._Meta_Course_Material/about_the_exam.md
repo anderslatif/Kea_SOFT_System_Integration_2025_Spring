@@ -2,7 +2,7 @@
 
 The previous stated idea of SI being a course that provides you a tool box and the ability to select the right tool gives a good idea of how you should approach the exam. Rather than deep knowledge about each topic a basic understanding of them is expected. This is good because there will be many possible topics that can be asked.
 
-Last semester that were 30+ questions with an almost 50/50 split between questions of the type:
+Last semester that were about 30 questions with an almost 50/50 split between questions of the type:
 - **Explain** ... (theory)
 
 Or:
