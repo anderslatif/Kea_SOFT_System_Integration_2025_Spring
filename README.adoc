@@ -113,7 +113,7 @@ link:00._Course_Material/01._Assignments/04._Server-To-Client/04b._Database_gran
 | 5. 
 Client and Server / Client-to-client
 Documentation
-| March 7th
+| March 6th
 a|
 * Client and Server
 * Client-to-client
@@ -130,7 +130,7 @@ a|
 // link:https://www.youtube.com/watch?v=pRS9LRBgjYg[Resource: Video on OpenAPI]
 
 | External Guest lecture
-| March 14th
+| March 13th
 | About integrating different systems and working with large systems
 | 
 |
