@@ -66,7 +66,7 @@ Server-to-server
 a|
 link:00._Course_Material/02._Slides/03._Server-To-Server/01._communication_protocols.md[Communication Protocols]
 
-* Network Protocols (TCP / UDP)
+Network Protocols (TCP / UDP)
 
 link:00._Course_Material/02._Slides/03._Server-To-Server/02._server-to-server.md[Server to server]
 
@@ -104,36 +104,129 @@ link:00._Course_Material/01._Assignments/04._Server-To-Client/04b._Database_gran
 
 
 
-| No Lecture
+| 5. No Lecture
 | February 27th
 | Work on the homework.
 | Do proper research on the topic.
 | 
 
-| 5. 
+| 6. 
 Client and Server / Client-to-client
-Documentation
 | March 6th
 a|
 * Client and Server
 * Client-to-client
-* Webhooks
-* Git hooks
 a|
 * Understands the pros and cons of SSE and can compare it to Websockets.
-* Can recall how we did Github Webhooks without having to be able to do it on the fly. Can illustrate exactly how it works by drawing a diagram.
-* Can create a "Hello World" Git hook. 
-* Understands how to approach building a custom webhook system.
+* Can explain how WebSocket works.
+* Understand WebRTC on a surface level instead of on a protocol level.
+* Can make comparisons between WebSocket and WebRTC.
+a|
+link:00._Course_Material/01._Assignments/06._Client_and_Server_Client-to-Client/06a._WebSocket_Example.md[06a Websocket Example]
+
+
+| 7. External Guest lecture
+| March 13th
+| Insights from building an Electronic Health Record system in link:https://eg.no/it/eg-pasientsky/[EG PasientSky, Norway], touching on integrating with central national IT systems, other healthcare providers, devices, and equipment at the clinic, and internally between services and clients. It will also touch on working with a large distributed system.
+a| 
+* Understand the breadth of types of integrations found in real-world systems
+
+* Pros and cons of different types of integrations
+
+* Examples of challenges related to working on large systems 
+a|
+link:https://www.youtube.com/watch?v=pRS9LRBgjYg[For next week. Resource: Video on OpenAPI]
+
+
+| 8. Documentation
+| March 20th
+a|
+// * link:00._Course_Material/02._Slides/OpenAPI/01._OpenAPI.md[OpenAPI]
+* OpenAPI
+* Backing up MySQL
+* Documenting MySQL
+a|
+* Can generate OpenAPI documentation in their favorite(s) frameworks.
+* Can document and backup MySQL
+* Has considered how to document the databases they are familiar with.
+a|
+// link:00._Course_Material/01._Assignments/08._Database_Integration/08a._Document_A_Database.md[08a Document A Database]
+
+// link:00._Course_Material/01._Assignments/08._Database_Integration/08b._Migrate_From_One_Database_To_Another.md[08b Migrate From One Database To Another]
+
+// link:00._Course_Material/01._Assignments/09._Documentation_Event-driven_architecture/09a._Generate_Code_Documentation_For_DLS.md[08a <DLS Group> Create Code Documentation for DLS]
+
+
+| 9. No Lecture
+| March 27th
+| 
+| 
+| Create proper code documentation for DLS.
+
+
+
+
+| 10. Media
+| April 3rd
+a|
+// * link:00._Course_Material/02._Slides/infographics/CORS.md[CORS]
+* CORS
+* Multi-part Forms
+* Sound
+* MPEG-DASH
+a|
+* Understands why CORS exists and how to solve issues. 
+* Knows how to send multi-part forms over HTML and how to set it up in at least one server language.
+* Can think of ways store media files.
+* Can explain how to send media files from client to server.
+* Can explain how to send media files from server to client.
+a|
+
+
+| 11. Webhooks / Feedback day
+| April 10th
+a|
+* Git hooks
+* GitHub Webhooks
+Feedback: Present your solutions to any homework. Ask questions about the material.
+a|
+// * Can recall how we did Github Webhooks without having to be able to do it on the fly. Can illustrate exactly how it works by drawing a diagram.
+// * Can create a "Hello World" Git hook.
+// * Understands how to approach building a custom webhook system.
 a|
 // link:00._Course_Material/01._Assignments/05._Real-time_communication_Part_III/05a._Expose_and_integrate_with_a_webhook_system.md[05a <Pair> Expose and integrate with a webhook system]
 
-// link:https://www.youtube.com/watch?v=pRS9LRBgjYg[Resource: Video on OpenAPI]
+// link:00._Course_Material/01._Assignments/08._Database_Integration/08c._Auth_Integration.md[08c Auth Integration]
 
-| External Guest lecture
-| March 13th
-| About integrating different systems and working with large systems
-| 
-|
+
+
+
+
+// | 12. Webscraping / GraphQL / Packaging
+// | April 3rd
+// a|
+// * link:00._Course_Material/02._Slides/Web_Scraping/Web_Scraping_Crawling.md[Web Scraping]
+// * Cheerio
+// * BeautifulSoup4
+// * Scrapy
+// * Packaging
+// * link:00._Course_Material/02._Slides/GraphQL/GraphQL.md[GraphQL]
+// * Exam Q&A
+// a|
+// * Can explain the difference between data scraping and web crawling. 
+// * Can web scrape in a language.
+// * Understands the problems that GraphQL solves.  
+// a|
+// link:00._Course_Material/01._Assignments/10._Web_Scraping_GraphQL/10a._GraphQL.md[10a GraphQL]
+
+// link:00._Course_Material/01._Assignments/10._Web_Scraping_GraphQL/10b._Integrate_With_Payment.md[10b Integrate with payment]
+
+// link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[**MANDATORY II**]
+
+// link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
+
+
+
 
 
 |===
