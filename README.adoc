@@ -6,7 +6,10 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the 
 
 link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the exam]
 
+link:00._Course_Material/01._Assignments/00._Mandatories/01._Mandatory_I.md[Mandatory I]
+
 link:00._Course_Material/00._Meta_Course_Material/poetry_commands.md[Poetry commands]
+
 
 
 == Semester Plan
@@ -123,6 +126,8 @@ a|
 * Can make comparisons between WebSocket and WebRTC.
 a|
 link:00._Course_Material/01._Assignments/06._Client_and_Server_Client-to-Client/06a._WebSocket_Example.md[06a Websocket Example]
+
+link:00._Course_Material/01._Assignments/06._Client_and_Server_Client-to-Client/06b._WebRTC_Example.md[06b WebRTC Example]
 
 
 | 7. External Guest lecture
