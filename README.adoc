@@ -114,20 +114,17 @@ link:00._Course_Material/01._Assignments/04._Server-To-Client/04b._Database_gran
 | 
 
 | 6. 
-Client and Server / Client-to-client
+Client and Server
 | March 6th
 a|
 * Client and Server
-* Client-to-client
 a|
 * Understands the pros and cons of SSE and can compare it to Websockets.
 * Can explain how WebSocket works.
-* Understand WebRTC on a surface level instead of on a protocol level.
-* Can make comparisons between WebSocket and WebRTC.
 a|
 link:00._Course_Material/01._Assignments/06._Client_and_Server_Client-to-Client/06a._WebSocket_Example.md[06a Websocket Example]
 
-link:00._Course_Material/01._Assignments/06._Client_and_Server_Client-to-Client/06b._WebRTC_Example.md[06b WebRTC Example]
+
 
 
 | 7. External Guest lecture
@@ -135,31 +132,35 @@ link:00._Course_Material/01._Assignments/06._Client_and_Server_Client-to-Client/
 | Insights from building an Electronic Health Record system in link:https://eg.no/it/eg-pasientsky/[EG PasientSky, Norway], touching on integrating with central national IT systems, other healthcare providers, devices, and equipment at the clinic, and internally between services and clients. It will also touch on working with a large distributed system.
 a| 
 * Understand the breadth of types of integrations found in real-world systems
-
 * Pros and cons of different types of integrations
-
 * Examples of challenges related to working on large systems 
 a|
 link:https://www.youtube.com/watch?v=pRS9LRBgjYg[For next week. Resource: Video on OpenAPI]
 
 
-| 8. Documentation
+| 8. Documentation / Client-to-client
 | March 20th
 a|
-// * link:00._Course_Material/02._Slides/OpenAPI/01._OpenAPI.md[OpenAPI]
+
+* link:00._Course_Material/02._Slides/08._Documentation_Client-to-client/02._client-to-client.md[Client-to-client]
 * OpenAPI
+* link:00._Course_Material/02._Slides/08._Documentation_Client-to-client/01._OpenAPI.md[OpenAPI]
 * Backing up MySQL
 * Documenting MySQL
 a|
+* Understand WebRTC on a surface level instead of on a protocol level.
+* Can make comparisons between WebSocket and WebRTC.
 * Can generate OpenAPI documentation in their favorite(s) frameworks.
 * Can document and backup MySQL
-* Has considered how to document the databases they are familiar with.
+* Has considered how to document and backup all the databases they are familiar with.
 a|
-// link:00._Course_Material/01._Assignments/08._Database_Integration/08a._Document_A_Database.md[08a Document A Database]
+link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08a._Document_A_Database.md[08a Document A Database]
 
-// link:00._Course_Material/01._Assignments/08._Database_Integration/08b._Migrate_From_One_Database_To_Another.md[08b Migrate From One Database To Another]
+link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08b._Migrate_From_One_Database_To_Another.md[08b Migrate From One Database To Another]
 
-// link:00._Course_Material/01._Assignments/09._Documentation_Event-driven_architecture/09a._Generate_Code_Documentation_For_DLS.md[08a <DLS Group> Create Code Documentation for DLS]
+link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08c._WebRTC_Example.md[08c WebRTC Example]
+
+link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08d._Generate_Code_Documentation_For_DLS.md[08d <DLS Group> Create Code Documentation for DLS]
 
 
 | 9. No Lecture
@@ -202,7 +203,7 @@ a|
 // link:00._Course_Material/01._Assignments/05._Real-time_communication_Part_III/05a._Expose_and_integrate_with_a_webhook_system.md[05a <Pair> Expose and integrate with a webhook system]
 
 // link:00._Course_Material/01._Assignments/08._Database_Integration/08c._Auth_Integration.md[08c Auth Integration]
-
+//todo auth integration in week 08
 
 
 
@@ -229,7 +230,6 @@ a|
 // link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[**MANDATORY II**]
 
 // link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
-
 
 
 
