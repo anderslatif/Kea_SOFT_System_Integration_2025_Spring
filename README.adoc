@@ -138,21 +138,16 @@ a|
 link:https://www.youtube.com/watch?v=pRS9LRBgjYg[For next week. Resource: Video on OpenAPI]
 
 
-| 8. Documentation / Client-to-client
+| 8. Documentation (OpenAPI) / Client-to-client
 | March 20th
 a|
+link:00._Course_Material/02._Slides/08._Documentation_Client-to-client/01._OpenAPI.md[OpenAPI]
 
-* link:00._Course_Material/02._Slides/08._Documentation_Client-to-client/02._client-to-client.md[Client-to-client]
-* OpenAPI
-* link:00._Course_Material/02._Slides/08._Documentation_Client-to-client/01._OpenAPI.md[OpenAPI]
-* Backing up MySQL
-* Documenting MySQL
+link:00._Course_Material/02._Slides/08._Documentation_Client-to-client/02._client-to-client.md[Client-to-client]
 a|
 * Understand WebRTC on a surface level instead of on a protocol level.
 * Can make comparisons between WebSocket and WebRTC.
 * Can generate OpenAPI documentation in their favorite(s) frameworks.
-* Can document and backup MySQL
-* Has considered how to document and backup all the databases they are familiar with.
 a|
 link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08a._Document_A_Database.md[08a Document A Database]
 
@@ -172,15 +167,19 @@ link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08d.
 
 
 
-| 10. Media
+| 10. Databases (Documentation / Migration) / Media
 | April 3rd
 a|
+* Backing up MySQL
+* Documenting MySQL
 // * link:00._Course_Material/02._Slides/infographics/CORS.md[CORS]
 * CORS
 * Multi-part Forms
 * Sound
 * MPEG-DASH
 a|
+* Can document and backup MySQL
+* Has considered how to document and backup all the databases they are familiar with.
 * Understands why CORS exists and how to solve issues. 
 * Knows how to send multi-part forms over HTML and how to set it up in at least one server language.
 * Can think of ways store media files.
