@@ -13,7 +13,7 @@ const servers = {
 };
 
 async function init() {
-  localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+  localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
   document.getElementById("localVideo").srcObject = localStream;
 }
 
