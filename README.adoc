@@ -148,6 +148,7 @@ a|
 * Understand WebRTC on a surface level instead of on a protocol level.
 * Can make comparisons between WebSocket and WebRTC.
 * Can generate OpenAPI documentation in their favorite(s) frameworks.
+* Understands what OpenAPI is and why it exists.
 a|
 link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08a._Document_A_Database.md[08a Document A Database]
 
