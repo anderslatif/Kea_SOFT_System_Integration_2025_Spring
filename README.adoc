@@ -150,13 +150,9 @@ a|
 * Can generate OpenAPI documentation in their favorite(s) frameworks.
 * Understands what OpenAPI is and why it exists.
 a|
-link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08a._Document_A_Database.md[08a Document A Database]
+link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08a._WebRTC_Example.md[08a WebRTC Example]
 
-link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08b._Migrate_From_One_Database_To_Another.md[08b Migrate From One Database To Another]
-
-link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08c._WebRTC_Example.md[08c WebRTC Example]
-
-link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08d._Generate_Code_Documentation_For_DLS.md[08d <DLS Group> Create Code Documentation for DLS]
+link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08b._Generate_Code_Documentation_For_DLS.md[08b <DLS Group> Create Code Documentation for DLS]
 
 
 | 9. No Lecture
@@ -173,7 +169,7 @@ link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08d.
 a|
 * Backing up MySQL
 * Documenting MySQL
-// * link:00._Course_Material/02._Slides/infographics/CORS.md[CORS]
+* link:00._Course_Material/02._Slides/10._Databases_Media/CORS.md[CORS]
 * CORS
 * Multi-part Forms
 * Sound
@@ -187,6 +183,9 @@ a|
 * Can explain how to send media files from client to server.
 * Can explain how to send media files from server to client.
 a|
+link:00._Course_Material/01._Assignments/10._Databases_Media/10a._Document_A_Database.md[10a Document A Database]
+
+link:00._Course_Material/01._Assignments/10._Databases_Media/10b._Migrate_From_One_Database_To_Another.md[10b Migrate From One Database To Another]
 
 
 | 11. Webhooks / Feedback day

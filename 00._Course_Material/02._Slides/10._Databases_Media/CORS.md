@@ -1,0 +1,3 @@
+# CORS
+
+![CORS](./CORS.svg)
