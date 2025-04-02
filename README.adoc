@@ -168,10 +168,10 @@ link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08b.
 a|
 * Advanced WebRTC
 * WebRTC + Firebase
-* Backing up MySQL
-* Documenting MySQL
+* link:00._Course_Material/02._Slides/10._Databases/01._migrations.md[Migrations]
+* link:00._Course_Material/02._Slides/10._Databases/02._backup_documentation.md[Backup and Documentation]
 a|
-* Can document and backup MySQL
+* Understands how backing up PostgreSQL and MySQL works.
 * Has considered how to document and backup all the databases they are familiar with.
 a|
 link:00._Course_Material/01._Assignments/10._Databases_Media/10a._Document_A_Database.md[10a Document A Database]
