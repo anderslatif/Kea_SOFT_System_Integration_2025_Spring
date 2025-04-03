@@ -180,7 +180,7 @@ link:00._Course_Material/01._Assignments/10._Databases_Media/10b._Migrate_From_O
 
 
 | 11. CORS / Media  / Feedback day
-| April 24th
+| April 10th
 a|
 * link:00._Course_Material/02._Slides/11._CORS_Media/01._cors.md[CORS]
 * link:00._Course_Material/02._Slides/11._CORS_Media/02._media.md[Media]
@@ -206,7 +206,7 @@ link:00._Course_Material/01._Assignments/11._CORS_Media/11b._Integrate_With_Paym
 
 
 | 12. Webhooks / Web Scraping / Web Crawling
-| May 1st
+| April 24th
 a|
 * Git hooks
 * GitHub Webhooks
@@ -234,7 +234,7 @@ a|
 
 
 | 12. GraphQL / Packaging / Sustainability / Exam Q&A
-| May 8th
+| May 1st
 a|
 * Packaging
 * GraphQL
