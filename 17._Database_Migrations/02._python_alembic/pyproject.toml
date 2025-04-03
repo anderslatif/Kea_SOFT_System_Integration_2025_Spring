@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "02-python-alembic"
+version = "0.1.0"
+description = ""
+authors = ["anderslatif <anderslatif@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "02"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+alembic = "^1.15.2"
+sqlalchemy = "^2.0.40"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
