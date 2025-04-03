@@ -202,6 +202,12 @@ link:00._Course_Material/01._Assignments/11._CORS_Media/11a._Auth_Integration.md
 link:00._Course_Material/01._Assignments/11._CORS_Media/11b._Integrate_With_Payment.md[11b Integrate with payment]
 
 
+| Holiday
+| April 17th
+a|
+a|
+a|
+
 
 
 
