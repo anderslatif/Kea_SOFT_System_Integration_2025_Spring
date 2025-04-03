@@ -1,0 +1,115 @@
+{
+    "schema": [
+        {
+            "table": "accounts",
+            "columns": [
+                {
+                    "field": "id",
+                    "type": "integer",
+                    "default": "nextval('accounts_id_seq'::regclass)",
+                    "null": "NO",
+                    "keyto": [],
+                    "typeJS": "Number",
+                    "keyTo": []
+                },
+                {
+                    "field": "name",
+                    "type": "character varying",
+                    "null": "NO",
+                    "keyto": [],
+                    "typeJS": "String",
+                    "keyTo": []
+                },
+                {
+                    "field": "description",
+                    "type": "character varying",
+                    "null": "YES",
+                    "keyto": [],
+                    "typeJS": "String",
+                    "keyTo": []
+                },
+                {
+                    "field": "last_transaction_date",
+                    "type": "timestamp without time zone",
+                    "null": "YES",
+                    "keyto": [],
+                    "typeJS": "String",
+                    "keyTo": []
+                }
+            ]
+        },
+        {
+            "table": "alembic_version",
+            "columns": [
+                {
+                    "field": "version_num",
+                    "type": "character varying",
+                    "null": "NO",
+                    "keyto": [],
+                    "typeJS": "String",
+                    "keyTo": []
+                }
+            ]
+        },
+        {
+            "table": "knex_migrations",
+            "columns": [
+                {
+                    "field": "id",
+                    "type": "integer",
+                    "default": "nextval('knex_migrations_id_seq'::regclass)",
+                    "null": "NO",
+                    "keyto": [],
+                    "typeJS": "Number",
+                    "keyTo": []
+                },
+                {
+                    "field": "name",
+                    "type": "character varying",
+                    "null": "YES",
+                    "keyto": [],
+                    "typeJS": "String",
+                    "keyTo": []
+                },
+                {
+                    "field": "batch",
+                    "type": "integer",
+                    "null": "YES",
+                    "keyto": [],
+                    "typeJS": "Number",
+                    "keyTo": []
+                },
+                {
+                    "field": "migration_time",
+                    "type": "timestamp with time zone",
+                    "null": "YES",
+                    "keyto": [],
+                    "typeJS": "String",
+                    "keyTo": []
+                }
+            ]
+        },
+        {
+            "table": "knex_migrations_lock",
+            "columns": [
+                {
+                    "field": "index",
+                    "type": "integer",
+                    "default": "nextval('knex_migrations_lock_index_seq'::regclass)",
+                    "null": "NO",
+                    "keyto": [],
+                    "typeJS": "Number",
+                    "keyTo": []
+                },
+                {
+                    "field": "is_locked",
+                    "type": "integer",
+                    "null": "YES",
+                    "keyto": [],
+                    "typeJS": "Number",
+                    "keyTo": []
+                }
+            ]
+        }
+    ]
+}

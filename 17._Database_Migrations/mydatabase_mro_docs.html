@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <style>
+            body {
+                margin: 5vw;
+                background: #fafafa;
+                font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            }
+            
+            h1, h2 {
+                font-family: Titillium Web, sans-serif;
+                color: #3b4151;
+            }
+            
+            h1 {
+                font-size: 36px;
+            }
+            
+            h2 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            
+            table {
+                width: 100%;
+                margin-bottom: 15px;
+                border-collapse: collapse;
+                border-radius: 4px;
+                box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+                background: #ffffff;
+            }
+            
+            th, td {
+                font-size: 14px;
+                padding: 10px;
+                text-align: left;
+                font-family: Source Code Pro, monospace;
+                font-weight: 600;
+                color: #3b4151;
+                border-bottom: 1px solid rgba(59, 65, 81, .2);
+            }
+            
+            th {
+                font-weight: 700;
+                background: hsla(0, 0%, 100%, .8);
+            }
+            
+            tr:nth-child(even) {
+                background-color: rgba(97, 175, 254, .1);
+            }
+            
+            tbody tr:hover {
+                background: rgba(0, 0, 0, .02);
+            }
+        </style>
+        <title>mydatabase - Docs</title>
+    </head>
+    <body>
+        <main>
+            <h1>mydatabase</h1>
+    
+            <div class="database-table">
+        <h2 class="database-table-name">accounts</h2>
+        <table class="database-table-body">
+            <tr>
+                <th>field</th><th>type</th><th>default</th><th>null</th><th>keyto</th><th>typeJS</th><th>keyTo</th>                 
+            </tr>
+    
+        </tr>
+        </thead>
+        <tbody>
+    
+            
+                <tr>
+                    <td>id</td><td>integer</td><td>nextval('accounts_id_seq'::regclass)</td><td>NO</td><td></td><td>Number</td><td></td>
+                </tr>
+                
+                <tr>
+                    <td>name</td><td>character varying</td><td></td><td>NO</td><td></td><td>String</td><td></td>
+                </tr>
+                
+                <tr>
+                    <td>description</td><td>character varying</td><td></td><td>YES</td><td></td><td>String</td><td></td>
+                </tr>
+                
+                <tr>
+                    <td>last_transaction_date</td><td>timestamp without time zone</td><td></td><td>YES</td><td></td><td>String</td><td></td>
+                </tr>
+                
+    
+        </tbody>
+        </table>
+    
+        <h2 class="database-table-name">alembic_version</h2>
+        <table class="database-table-body">
+            <tr>
+                <th>field</th><th>type</th><th>null</th><th>keyto</th><th>typeJS</th><th>keyTo</th>                 
+            </tr>
+    
+        </tr>
+        </thead>
+        <tbody>
+    
+            
+                <tr>
+                    <td>version_num</td><td>character varying</td><td>NO</td><td></td><td>String</td><td></td>
+                </tr>
+                
+    
+        </tbody>
+        </table>
+    
+        <h2 class="database-table-name">knex_migrations</h2>
+        <table class="database-table-body">
+            <tr>
+                <th>field</th><th>type</th><th>default</th><th>null</th><th>keyto</th><th>typeJS</th><th>keyTo</th>                 
+            </tr>
+    
+        </tr>
+        </thead>
+        <tbody>
+    
+            
+                <tr>
+                    <td>id</td><td>integer</td><td>nextval('knex_migrations_id_seq'::regclass)</td><td>NO</td><td></td><td>Number</td><td></td>
+                </tr>
+                
+                <tr>
+                    <td>name</td><td>character varying</td><td></td><td>YES</td><td></td><td>String</td><td></td>
+                </tr>
+                
+                <tr>
+                    <td>batch</td><td>integer</td><td></td><td>YES</td><td></td><td>Number</td><td></td>
+                </tr>
+                
+                <tr>
+                    <td>migration_time</td><td>timestamp with time zone</td><td></td><td>YES</td><td></td><td>String</td><td></td>
+                </tr>
+                
+    
+        </tbody>
+        </table>
+    </div>
+            </main> 
+            <br><br>
+            <footer>Powered by MRO</footer>
+        </body>
+        </html>
