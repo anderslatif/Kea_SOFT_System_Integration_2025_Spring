@@ -43,7 +43,7 @@ async function startCall() {
   const offerCandidates = callDocument.collection('offerCandidates');
   const answerCandidates = callDocument.collection('answerCandidates');
 
-  localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+  localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
   localVideo.srcObject = localStream;
 
   remoteStream = new MediaStream();
@@ -98,7 +98,7 @@ async function answerCall() {
 		event.candidate && answerCandidates.add(event.candidate.toJSON());
 	};
 
-	localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+	localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
 	localVideo.srcObject = localStream;
 
 	remoteStream = new MediaStream();
