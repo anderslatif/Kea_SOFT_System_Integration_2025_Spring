@@ -1,0 +1,19 @@
+[project]
+name = "02-python"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "anderslatif",email = "anderslatif@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=2.7"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "02"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS</title>
+</head>
+<body>
+
+    <h2>Timestamp from Express</h2>
+    <p id="timestamp-express"></p>
+
+    <h2>Timestamp from FastAPI</h2>
+    <p id="timestamp-fastapi"></p>
+
+    <script>
+        fetch("http://localhost:8080/timestamp")
+        .then((response) => response.json())
+        .then((result) => {
+            const timestampExpressP = document.getElementById("timestamp-express");
+            timestampExpressP.textContent = result.data;
+        });
+
+
+        fetch("http://localhost:8000/timestamp")
+        .then((response) => response.json())
+        .then((result) => {
+            const timestampFastAPIP = document.getElementById("timestamp-fastapi");
+            timestampFastAPIP.textContent = result.data;
+        });
+    </script>
+</body>
+</html>
