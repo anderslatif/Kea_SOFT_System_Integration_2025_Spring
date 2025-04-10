@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Forms</title>
+</head>
+<body>
+    
+    <form action="http://localhost:8080/form" method="POST">
+        <h3>Extended Object (Nested)</h3>
+        <label for="userEmail">Email:</label><br>
+        <input id="userEmail" name="userDetails[email]"><br>
+        <label for="userName">Name:</label><br>
+        <input id="userName" name="userDetails[name]"><br>
+    
+        <h3>Extended array (Nested):</h3>
+        <label for="complexTextExtended0">Array Element 0:</label><br>
+        <input id="complexTextExtended0" name="complexTextExtended[0]"><br>
+        <label for="complexTextExtended1">Array Element 1:</label><br>
+        <input id="complexTextExtended1" name="complexTextExtended[1]"><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
