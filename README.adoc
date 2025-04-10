@@ -6,7 +6,11 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the 
 
 link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the exam]
 
+link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[Exam Requirements]
+
 link:00._Course_Material/01._Assignments/00._Mandatories/01._Mandatory_I.md[Mandatory I]
+
+link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[Mandatory II]
 
 link:00._Course_Material/00._Meta_Course_Material/poetry_commands.md[Poetry commands]
 
@@ -224,6 +228,7 @@ link:00._Course_Material/01._Assignments/12._Media_II_Webhooks/12a._Expose_and_i
 
 link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[**MANDATORY II Given**]
 
+// todo 
 // link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
 
 
@@ -240,7 +245,7 @@ a|
 * Can explain the difference between data scraping and web crawling. 
 * Can web scrape in a programming language.
 a|
-// link:00._Course_Material/01._Assignments/13._Packaging_GraphQL_Data_scraping/13a._GraphQL.md[12a GraphQL]
+// link:00._Course_Material/01._Assignments/13._Packaging_GraphQL_Data_scraping/13a._GraphQL.md[13a GraphQL]
 
 
 | 14. Web Crawling / Sustainability / Exam Q&A 
