@@ -179,27 +179,22 @@ link:00._Course_Material/01._Assignments/10._Databases_Media/10a._Document_A_Dat
 link:00._Course_Material/01._Assignments/10._Databases_Media/10b._Migrate_From_One_Database_To_Another.md[10b Migrate From One Database To Another]
 
 
-| 11. CORS / Media  / Feedback day
+| 11. CORS / Media I / Feedback day
 | April 10th
 a|
-* link:00._Course_Material/02._Slides/11._CORS_Media/01._cors.md[CORS]
-* link:00._Course_Material/02._Slides/11._CORS_Media/02._media.md[Media]
+* link:00._Course_Material/02._Slides/11._CORS_Media_I/01._cors.md[CORS]
+* link:00._Course_Material/02._Slides/11._CORS_Media_I/02._media.md[Media I] 
 * Multi-part Forms
-* Sound
-* Video: MPEG-DASH
-
 Feedback: Present your solutions to any homework. Ask questions about the material.
 a|
 * Understands why CORS exists and how to solve issues. 
 * Knows how to send multi-part forms over HTML and how to set it up in at least one server language.
 * Can think of proper ways store media files.
-* Can explain how to send media files from client to server.
-* Can explain how to send media files from server to client.
-
+* Can explain how to send media files FROM a client TO a server.
 a|
-link:00._Course_Material/01._Assignments/11._CORS_Media/11a._Auth_Integration.md[11a Auth Integration]
+link:00._Course_Material/01._Assignments/11._CORS_Media_I/11a._Auth_Integration.md[11a Auth Integration]
 
-link:00._Course_Material/01._Assignments/11._CORS_Media/11b._Integrate_With_Payment.md[11b Integrate with payment]
+link:00._Course_Material/01._Assignments/11._CORS_Media_I/11b._Integrate_With_Payment.md[11b Integrate with payment]
 
 
 | Holiday
@@ -211,52 +206,52 @@ a|
 
 
 
-| 12. Webhooks / Web Scraping / Web Crawling
+| 12. Media II / Webhooks
 | April 24th
 a|
+* Media II
+* Sound
+* Video: MPEG-DASH
 * Git hooks
 * GitHub Webhooks
-* Web scraping / Web crawling
-// todo
-// * link:00._Course_Material/02._Slides/Web_Scraping/Web_Scraping_Crawling.md[Web Scraping]
-* Cheerio
-* BeautifulSoup4
-* Scrapy
 a|
+* Can explain how to send media files FROM a server TO a client.
 * Can recall how we did Github Webhooks without having to be able to do it on the fly. Can illustrate exactly how it works by drawing a diagram.
 * Can create a "Hello World" Git hook.
 * Understands how to approach building a custom webhook system.
-* Can explain the difference between data scraping and web crawling. 
-* Can web scrape in a language.
 a|
-// link:00._Course_Material/01._Assignments/05._Real-time_communication_Part_III/05a._Expose_and_integrate_with_a_webhook_system.md[05a <Pair> Expose and integrate with a webhook system]
+link:00._Course_Material/01._Assignments/12._Media_II_Webhooks/12a._Expose_and_integrate_with_a_webhook_system.md[12a <Pair> Expose and integrate with a webhook system]
 
-// link:00._Course_Material/01._Assignments/10._Web_Scraping_GraphQL/12a._GraphQL.md[12a GraphQL]
-
-// todo remember to add a link at the top of the document
-// link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[**MANDATORY II**]
+link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[**MANDATORY II Given**]
 
 // link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
 
 
-| 12. GraphQL / Packaging / Sustainability / Exam Q&A
+| 13.  Packaging / GraphQL / Data Scraping
 | May 1st
 a|
-* Packaging
-* GraphQL
-// todo
-// * link:00._Course_Material/02._Slides/GraphQL/GraphQL.md[GraphQL]
+* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/01._packaging.md[Packaging]
+* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/02._graphql.md[GraphQL]
+* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/03._web_scraping_web_crawling.md[Web Scraping / Web Crawling]
+* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/04._cheerio.md[Cheerio]
+* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/05._beautifulsoup4.md[BeautifulSoup4]
+a|
+* Can explain the problems that GraphQL solves.  
+* Can explain the difference between data scraping and web crawling. 
+* Can web scrape in a programming language.
+a|
+// link:00._Course_Material/01._Assignments/13._Packaging_GraphQL_Data_scraping/13a._GraphQL.md[12a GraphQL]
+
+
+| 14. Web Crawling / Sustainability / Exam Q&A 
+| May 8th
+a|
+* link:00._Course_Material/02._Slides/14._Web_Crawling_Sustainability/01._scrapy.md[Scrapy]
+// todo add the slides
 * Sustainability
 * Exam Q&A
 a|
-* Can recall how we did Github Webhooks without having to be able to do it on the fly. Can illustrate exactly how it works by drawing a diagram.
-* Can create a "Hello World" Git hook.
-* Understands how to approach building a custom webhook system.
-* Can explain the difference between data scraping and web crawling. 
-* Can web scrape in a language.
-* Understands the problems that GraphQL solves.  
 a|
-* Understands the problems that GraphQL solves.  
 
 
 
