@@ -3,9 +3,8 @@ name = "02-python"
 version = "0.0.1"
 description = "Working with environment variables in python"
 authors = ["anderslatif <anderslatif@users.noreply.github.com>"]
+package-mode = false
 license = "MIT"
-readme = "README.md"
-packages = [{include = "02"}]
 
 [tool.poetry.dependencies]
 python = "^3.13"

@@ -28,4 +28,6 @@ If you draw a question that you don't have code for then you will be asked to li
 
 You will normally not be asked to run the examples. The focus is on understanding the code, what it does, how the integration works.
 
-You are allowed to come to the exam with my code but you still need to understand it. Based on limited data I can state that students that create their own version of the code have performed better during the code part of the exam. Even adding minimal changes seems to have a better outcome for the exam.
+You are allowed to come to the exam with my code or generated code but you still need to understand it. And it must follow the learning goals.
+
+Remember to push the code before the exam.

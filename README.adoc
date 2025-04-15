@@ -228,8 +228,7 @@ link:00._Course_Material/01._Assignments/12._Media_II_Webhooks/12a._Expose_and_i
 
 link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[**MANDATORY II Given**]
 
-// todo 
-// link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
+link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
 
 
 | 13.  Packaging / GraphQL / Data Scraping
