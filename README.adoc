@@ -268,8 +268,10 @@ a|
 | May 8th
 a|
 link:00._Course_Material/02._Slides/14._Web_Crawling_Sustainability/01._scrapy.md[Scrapy]
+
 // todo add the slides
 * Sustainability
+
 * Exam Q&A
 a|
 a|
