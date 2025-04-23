@@ -8,6 +8,8 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[About the ex
 
 link:00._Course_Material/00._Meta_Course_Material/about_the_exam.md[Exam Requirements]
 
+== Mandatory Assignments
+
 link:00._Course_Material/01._Assignments/00._Mandatories/01._Mandatory_I.md[Mandatory I]
 
 link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[Mandatory II]
@@ -115,13 +117,13 @@ link:00._Course_Material/01._Assignments/04._Server-To-Client/04b._Database_gran
 | February 27th
 | Work on the homework.
 | Do proper research on the topic.
-| 
+|
 
-| 6. 
+| 6.
 Client and Server
 | March 6th
 a|
-* Client and Server
+link:00._Course_Material/02._Slides/06._Client_and_Server_Client-to-Client/01._client_and_server.md[Client and Server]
 a|
 * Understands the pros and cons of SSE and can compare it to Websockets.
 * Can explain how WebSocket works.
@@ -170,10 +172,13 @@ link:00._Course_Material/01._Assignments/08._Documentation_Client-to-client/08b.
 | 10. Databases (Documentation / Migration)
 | April 3rd
 a|
-* Advanced WebRTC
-* WebRTC + Firebase
-* link:00._Course_Material/02._Slides/10._Databases/01._migrations.md[Migrations]
-* link:00._Course_Material/02._Slides/10._Databases/02._backup_documentation.md[Backup and Documentation]
+Advanced WebRTC
+
+WebRTC + Firebase
+
+link:00._Course_Material/02._Slides/10._Databases/01._migrations.md[Migrations]
+
+link:00._Course_Material/02._Slides/10._Databases/02._backup_documentation.md[Backup and Documentation]
 a|
 * Understands how backing up PostgreSQL and MySQL works.
 * Has considered how to document and backup all the databases they are familiar with.
@@ -186,9 +191,12 @@ link:00._Course_Material/01._Assignments/10._Databases_Media/10b._Migrate_From_O
 | 11. CORS / Media I / Feedback day
 | April 10th
 a|
-* link:00._Course_Material/02._Slides/11._CORS_Media_I/01._cors.md[CORS]
-* link:00._Course_Material/02._Slides/11._CORS_Media_I/02._media.md[Media I] 
-* Multi-part Forms
+link:00._Course_Material/02._Slides/11._CORS_Media_I/01._cors.md[CORS]
+
+link:00._Course_Material/02._Slides/11._CORS_Media_I/02._media.md[Media I] 
+
+Multi-part Forms
+
 Feedback: Present your solutions to any homework. Ask questions about the material.
 a|
 * Understands why CORS exists and how to solve issues. 
@@ -213,11 +221,15 @@ a|
 | 12. Media II / Webhooks
 | April 24th
 a|
-* Media II
-* Sound
-* Video: MPEG-DASH
-* Git hooks
-* GitHub Webhooks
+Media II
+
+Sound
+
+Video: MPEG-DASH
+
+link:00._Course_Material/02._Slides/12._Media_II_Webhooks/01._git_hooks.md[Git Hooks]
+
+link:00._Course_Material/02._Slides/12._Media_II_Webhooks/02._webhooks.md[Web Hooks]
 a|
 * Can explain how to send media files FROM a server TO a client.
 * Can recall how we did Github Webhooks without having to be able to do it on the fly. Can illustrate exactly how it works by drawing a diagram.
@@ -234,23 +246,28 @@ link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requ
 | 13.  Packaging / GraphQL / Data Scraping
 | May 1st
 a|
-* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/01._packaging.md[Packaging]
-* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/02._graphql.md[GraphQL]
-* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/03._web_scraping_web_crawling.md[Web Scraping / Web Crawling]
-* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/04._cheerio.md[Cheerio]
-* link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/05._beautifulsoup4.md[BeautifulSoup4]
+link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/01._packaging.md[Packaging]
+
+link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/02._graphql.md[GraphQL]
+
+link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/03._web_scraping_web_crawling.md[Web Scraping / Web Crawling]
+
+link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/04._cheerio.md[Cheerio]
+
+link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/05._beautifulsoup4.md[BeautifulSoup4]
 a|
 * Can explain the problems that GraphQL solves.  
 * Can explain the difference between data scraping and web crawling. 
 * Can web scrape in a programming language.
 a|
+// todo add
 // link:00._Course_Material/01._Assignments/13._Packaging_GraphQL_Data_scraping/13a._GraphQL.md[13a GraphQL]
 
 
 | 14. Web Crawling / Sustainability / Exam Q&A 
 | May 8th
 a|
-* link:00._Course_Material/02._Slides/14._Web_Crawling_Sustainability/01._scrapy.md[Scrapy]
+link:00._Course_Material/02._Slides/14._Web_Crawling_Sustainability/01._scrapy.md[Scrapy]
 // todo add the slides
 * Sustainability
 * Exam Q&A
