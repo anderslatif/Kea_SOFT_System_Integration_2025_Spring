@@ -24,6 +24,12 @@
 
         document.addEventListener("DOMContentLoaded", init);
 
+        player.addEventListener("adaptation", () => {
+            const variant = player.getVariantTracks().find((track) => track.active);
+            console.log(`[SHAKA] Adapted to ${variant.height}p ${variant.bandwidth}bps`);
+        });
+
+
     </script>
 </body>
 </html>
