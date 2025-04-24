@@ -30,4 +30,4 @@ You will normally not be asked to run the examples. The focus is on understandin
 
 You are allowed to come to the exam with my code or generated code but you still need to understand it. And it must follow the learning goals.
 
-Remember to push the code before the exam.
+You can work on the code until the exam but remember to push the code before the exam.
