@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "03-python-web-crawler"
+version = "0.1.0"
+description = ""
+authors = ["anderslatif <anderslatif@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "03"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+lxml = "^5.2.1"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
