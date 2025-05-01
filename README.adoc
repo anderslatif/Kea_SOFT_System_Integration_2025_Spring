@@ -243,7 +243,7 @@ link:00._Course_Material/01._Assignments/00._Mandatories/02._Mandatory_II.md[**M
 link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
 
 
-| 13.  Packaging / GraphQL / Data Scraping
+| 13.  Packaging / GraphQL / Data Scraping / Web Crawling
 | May 1st
 a|
 link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/01._packaging.md[Packaging]
@@ -255,26 +255,20 @@ link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/03._web_
 link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/04._cheerio.md[Cheerio]
 
 link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/05._beautifulsoup4.md[BeautifulSoup4]
+
+link:00._Course_Material/02._Slides/13._Packaging_GraphQL_Data_scraping/06._scrapy.md[Scrapy]
 a|
 * Can explain the problems that GraphQL solves.  
 * Can explain the difference between data scraping and web crawling. 
 * Can web scrape in a programming language.
 a|
-// todo add
-// link:00._Course_Material/01._Assignments/13._Packaging_GraphQL_Data_scraping/13a._GraphQL.md[13a GraphQL]
+link:00._Course_Material/01._Assignments/13._Packaging_GraphQL_Data_scraping/13a._GraphQL.md[13a GraphQL]
 
 
-| 14. Web Crawling / Sustainability / Exam Q&A 
-| May 8th
-a|
-link:00._Course_Material/02._Slides/14._Web_Crawling_Sustainability/01._scrapy.md[Scrapy]
-
-// todo add the slides
-* Sustainability
-
-* Exam Q&A
-a|
-a|
+// | 14. Sustainability
+// | May 8th
+// a|
+// * Sustainability
 
 
 
