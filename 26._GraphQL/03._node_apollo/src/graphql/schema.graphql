@@ -1,0 +1,52 @@
+type Book {
+    id: ID!
+    title: String
+    releaseYear: Int
+    authorId: ID!
+    author: Author
+}
+
+type Author {
+    id: ID!
+    name: String
+    books: [Book]
+}
+
+type ErrorMessage {
+    message: String,
+    errorCode: Int
+}
+
+type SuccessMessage {
+    message: String
+}
+
+type Query {
+    "Get all books"
+    books: [Book]
+
+    "Get a book by id"
+    book(id: ID!): Book,
+
+    "Get all authors"
+    authors: [Author]
+
+    "Get an author by id"
+    author(id: ID!): Author
+}
+
+type Mutation {
+    "Create a new book"
+    addBook(authorId: ID!, title: String!, releaseYear: Int): Book
+
+    "Update a book by id"
+    updateBook(id: ID!, authorId: ID, title: String, releaseYear: Int): Book
+ 
+    "Delete a book by id"
+    deleteBook(id: ID!): SuccessMessage
+}
+
+type Subscription {
+    "Updates when a new book has been added"
+    bookAdded: Book
+}
