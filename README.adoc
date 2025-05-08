@@ -265,10 +265,12 @@ a|
 link:00._Course_Material/01._Assignments/13._Packaging_GraphQL_Data_scraping/13a._GraphQL.md[13a GraphQL]
 
 
-// | 14. Sustainability
-// | May 8th
-// a|
-// * Sustainability
+| 14. Sustainability
+| May 8th
+a|
+link:00._Course_Material/02._Slides/14._Sustainability/sustainability.md[Sustainability]
+a|
+a|
 
 
 
